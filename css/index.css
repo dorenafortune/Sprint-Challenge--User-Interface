@@ -73,7 +73,7 @@ p {
 
 header{
     display:flex;
-    width:50%;
+    width:60%;
     flex-direction:row-reverse;
     
 }
@@ -88,7 +88,7 @@ header nav{
 }
 
 header nav a{
-    margin-right: 76px;
+    margin-right: 100px;
     color: black;
     text-decoration:none;
     
@@ -97,9 +97,14 @@ header nav a{
 header .lambdalogo{
     display:flex;
     justify-content:flex-start;
-    margin-right:50px;
+    margin-right:75px;
 }
 
+.headerimage{
+    display:flex;
+    align-items:center;
+    margin:1.5%;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -140,6 +145,46 @@ header .lambdalogo{
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box1{
+    background: teal;
+}
+
+.middle-content .boxes .box2{
+    background:gold;
+}
+.middle-content .boxes .box3{
+    background:cadetblue;
+}
+
+.middle-content .boxes .box4{
+    background:coral;
+}
+
+.middle-content .boxes .box5{
+    background:crimson;
+}
+
+.middle-content .boxes .box6{
+    background:forestgreen;
+}
+
+.middle-content .boxes .box7{
+    background:darkorchid;
+}
+
+.middle-content .boxes .box8{
+    background:hotpink;
+}
+
+.middle-content .boxes .box9{
+    background:indigo;
+}
+
+.middle-content .boxes .box10{
+    background:dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
