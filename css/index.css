@@ -105,6 +105,19 @@ header .lambdalogo{
     align-items:center;
     margin:1.5%;
 }
+
+.headerimage2{
+    display:flex;
+    align-items:center;
+    margin:1.5%;
+
+}
+.about-content{
+    border-bottom: 1px dotted black;
+    padding-bottom: 40px;
+    margin-bottom: 20px
+
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -185,7 +198,17 @@ header .lambdalogo{
     background:dodgerblue;
 }
 
+.main-content{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
 
+}
+.main-content .approach{
+    padding: 10px;
+    width: 325px;
+    margin: 20px;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -203,6 +226,8 @@ header .lambdalogo{
 footer {
     width: 100%;
     background: black;
+    margin:4px;
+    
 }
 
 footer nav {
