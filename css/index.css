@@ -71,6 +71,53 @@ p {
     margin: 0 auto;
 }
 
+header{
+    display:flex;
+    width:60%;
+    flex-direction:row-reverse;
+    
+}
+
+header nav{
+    display:flex;
+    justify-content:space-between;
+    width:45%;
+    margin-top: 30px;
+    margin-right: 60px;
+    
+}
+
+header nav a{
+    margin-right: 100px;
+    color: black;
+    text-decoration:none;
+    
+}
+
+header .lambdalogo{
+    display:flex;
+    justify-content:flex-start;
+    margin-right:75px;
+}
+
+.headerimage{
+    display:flex;
+    align-items:center;
+    margin:4%;
+}
+
+.headerimage2{
+    display:flex;
+    align-items:center;
+    margin:4%;
+
+}
+.about-content{
+    border-bottom: 2px dotted black;
+    padding-bottom: 40px;
+    margin-bottom: 20px
+
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +159,64 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1{
+    background: teal;
+}
+
+.middle-content .boxes .box2{
+    background:gold;
+}
+.middle-content .boxes .box3{
+    background:cadetblue;
+}
+
+.middle-content .boxes .box4{
+    background:coral;
+}
+
+.middle-content .boxes .box5{
+    background:crimson;
+}
+
+.middle-content .boxes .box6{
+    background:forestgreen;
+}
+
+.middle-content .boxes .box7{
+    background:darkorchid;
+}
+
+.middle-content .boxes .box8{
+    background:hotpink;
+}
+
+.middle-content .boxes .box9{
+    background:indigo;
+}
+
+.middle-content .boxes .box10{
+    background:dodgerblue;
+}
+
+.main-content{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+
+}
+.main-content .approach{
+    padding: 10px;
+    width: 325px;
+    margin: 20px;
+    border-bottom:2px dotted black
+}
+
+.main-content .approach button {
+    background:white;
+    padding:10px;
+    border: 2px solid black;
+    border-radius:8px;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,9 +231,15 @@ p {
     padding-right: 0;
 }
 
+.theend{
+
+    margin:3%;
+}
 footer {
     width: 100%;
     background: black;
+    margin:4px;
+    
 }
 
 footer nav {
